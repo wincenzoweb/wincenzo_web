@@ -2,7 +2,7 @@ const aboutPage = require("../models/about");
 const multer = require("multer");
 const fs = require("fs");
 
-//test
+//test 1
 
 // const storage = multer.diskStorage({
 //   destination: function (req, file, cb) {
