@@ -1,0 +1,139 @@
+.brand-logo {
+    max-width: 150px;
+    width: 100%;
+    transition: 0.2ms all;
+}
+
+.nav-link {
+    color: #062A4D !important;
+    font-size: 15px !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 600 !important;
+    line-height: 22px !important;
+}
+
+.nav-link:active,.nav-link.active {
+    color: #F99A00 !important;
+}
+
+.nav-link:focus {
+    color: #F99A00 !important;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon-thumb .dropdown .dropdown-toggle {
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none;
+    outline: none;
+}
+
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:hover {
+    background-color: #062A4D !important;
+    color: #FFFFFF !important;
+}
+
+.icon-thumb .dropdown .dropdown-toggle i {
+    color: #062A4D;
+    font-size: 25px;
+}
+
+.icon-thumb .dropdown .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: none !important;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.search-btn,
+.cart-btn {
+    color: #F99A00;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 15px;
+    padding: 10px;
+}
+
+.search-btn,
+.cart-btn {
+    color: #F99A00;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 15px;
+    padding: 10px;
+}
+
+.cart-btn {
+    cursor: pointer;
+    position: relative;
+}
+
+.cart-btn .cart-notification {
+    background-color: #F99A00;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding: 0px 5px;
+    margin: 0;
+    font-size: 8px;
+    position: absolute;
+    transition: 0.2s all;
+    right: 5px;
+    top: 1px;
+}
+
+.search-btn,
+.cart-btn {
+    cursor: pointer;
+    border-right: 2px solid #D7D7D7;
+}
+
+.order-btn {
+    color: #FFFFFF;
+    font-size: 14px !important;
+    line-height: 14px !important;
+    background-color: #F99A00 !important;
+    border: 2px solid #F99A00 !important;
+    border-radius: 50px !important;
+    outline: #F99A00;
+    padding: 8px 12px !important;
+    margin-left: 15px;
+}
+
+.order-btn:hover {
+    background-color: #FFFFFF !important;
+    color: #F99A00 !important;
+}
+
+@media screen and (max-width:768px) {
+    .brand-logo {
+        max-width: 80px;
+        width: 100%;
+        transition: 0.2ms all;
+    }
+
+    .icons {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .brand-logo {
+        max-width: 80px;
+        width: 100%;
+        transition: 0.2ms all;
+    }
+
+}

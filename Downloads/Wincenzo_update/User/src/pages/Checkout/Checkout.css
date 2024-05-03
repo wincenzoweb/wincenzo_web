@@ -1,0 +1,228 @@
+.checkout-compo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.address-detail {
+    padding: 20px 20px;
+}
+
+.cart-detail {
+    padding: 20px;
+}
+
+.email-form input {
+    padding: 10px;
+}
+
+.email-form input::placeholder {
+    font-size: 14px;
+}
+
+.email-check input {
+    width: 15px;
+}
+
+.email-check p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.form-select,
+.city,
+.pincode {
+    padding: 10px !important;
+    font-size: 14px !important;
+}
+
+.name-detail input {
+    padding: 10px;
+}
+
+.name-detail input::placeholder {
+    font-size: 14px;
+}
+
+.addr-detail input {
+    padding: 10px;
+}
+
+.addr-detail input::placeholder {
+    font-size: 14px;
+}
+
+.pin-detail select {
+    font-size: 12px;
+}
+
+.pin-detail input::placeholder {
+    font-size: 14px;
+}
+
+.addrs-check p {
+    font-size: 12px;
+}
+
+.shipping-method p {
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.payment p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.card-header input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.card-holder-name,
+.cvv,
+.card-number,
+.expirydate {
+    padding: 10px !important;
+}
+
+.card-holder-name::placeholder,
+.cvv::placeholder,
+.card-number::placeholder,
+.expirydate::placeholder {
+    font-size: 14px;
+}
+
+
+
+.comp-order-btn {
+    background-color: #F99A00;
+    border: 2px solid #F99A00;
+    border-radius: 8px !important;
+    color: #FFFFFF;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    width: 100%;
+    padding: 10px 20px !important;
+    transition: all 0.4s;
+    margin-left: 0;
+}
+
+.comp-order-btn:hover {
+    color: #F99A00;
+    background-color: transparent;
+}
+
+/* .order-detail {
+
+} */
+
+.prod-thumb {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background-color: #eee;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.prod-thumb img{
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-count {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    display: block;
+    line-height: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+
+}
+
+.product-count span {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.product-detail h6 {
+    font-size: 14px;
+    width: 200px;
+
+}
+
+.product-detail span {
+    font-size: 14px;
+}
+
+
+
+.coupan-area .coupan-input {
+    padding: 10px;
+    /* width: 200px; */
+}
+
+.coupan-input::placeholder {
+    font-size: 14px;
+}
+
+.coupan-btn {
+    background-color: #eee;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    /* width: 70px; */
+}
+
+.coupan-btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sub-totla h6 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.sub-totla span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.total h5 {
+    /* font-size: 14px; */
+    font-weight: 700;
+}
+
+.total span {
+    /* font-size: 14px; */
+    font-weight: 700;
+}
+
+.total span small {
+    /* font-size: 14px; */
+    font-weight: 300;
+}
+
+@media screen and (max-width:768px) {}
