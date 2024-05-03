@@ -1,0 +1,149 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+
+.useraddress {
+    margin: 0px;
+    padding: 0px;
+}
+
+.addressin {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+
+.addressin .address {
+    height: auto;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    min-height: 100px;
+    gap: 5px;
+}
+
+.addressin .address span {
+    color: rgba(6, 42, 77, 1);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.addressin .address .delbtn {
+    background-color: #F99A00;
+    color: rgba(6, 42, 77, 1);
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    /* padding: 5px; */
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+}
+
+.addressin .address .delbtn svg {
+    padding: 5px;
+}
+
+.useraddress .addnewbtn {
+    width: 50px;
+    height: 50px;
+    background-color: #F99A00;
+    border-radius: 50%;
+    color: rgba(6, 42, 77, 1);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.172);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.useraddress .addnew {
+    padding: 20px;
+
+}
+
+
+
+.useraddress .form .form-group .form-label {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(6, 42, 77, 1);
+}
+
+
+@media (max-width: 1000px) {
+    .useraddress .addnewbtn {
+        width: 40px;
+        height: 40px;
+        background-color: #F99A00;
+        border-radius: 50%;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.172);
+        padding: 5px;
+    }
+
+    .addressin {
+        width: 100%;
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+
+
+    .addressin .address {
+        height: auto;
+        align-self: center;
+        width: 97%;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #d0d0d0;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        min-height: 100px;
+        gap: 5px;
+    }
+
+    .addressin .address .delbtn {
+        background-color: #F99A00;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 8px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: -2px;
+        top: -10px;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .useraddress .form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* padding: 10px 20px; */
+    }
+
+    .useraddress .form .form-group {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+    }
+
+}
