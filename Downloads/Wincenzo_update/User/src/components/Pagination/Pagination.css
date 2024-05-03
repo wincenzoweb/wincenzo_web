@@ -1,0 +1,14 @@
+.page-link {
+    font-weight: 600 !important;
+    color: #F99A00 !important;
+}
+
+.page-link span {
+    color: #062A4D !important;
+}
+
+.active>.page-link,
+.page-link.active {
+    background-color: #062A4D !important;
+    border-color: #062A4D !important;
+}
