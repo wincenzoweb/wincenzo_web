@@ -2,6 +2,8 @@ const aboutPage = require("../models/about");
 const multer = require("multer");
 const fs = require("fs");
 
+//test
+
 // const storage = multer.diskStorage({
 //   destination: function (req, file, cb) {
 //     const productFolderPath = `public/about`;
